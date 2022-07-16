@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFCaser", "TFCaser.csproj", "{2BA1701C-F775-4188-AE0D-53D7D48C8C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBD", "..\CreateBD\CreateBD\CreateBD.csproj", "{73E18FB3-88D2-410A-90C9-4F4876ACB902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAccounts", "..\CreateBD\AddAccounts\AddAccounts.csproj", "{BAEC473C-52AD-4227-80C1-A6F96504BC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartAccountsSteam", "..\StartAccountsSteam\StartAccountsSteam.csproj", "{B2B9AD5E-9932-49CD-85C4-D77F5895A907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamAuth", "..\SteamAuth-master\SteamAuth\SteamAuth.csproj", "{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyTicket", "..\BuyTicket\BuyTicket.csproj", "{0AD14360-1ABB-4283-A562-989BE10D9D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA1701C-F775-4188-AE0D-53D7D48C8C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA1701C-F775-4188-AE0D-53D7D48C8C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA1701C-F775-4188-AE0D-53D7D48C8C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA1701C-F775-4188-AE0D-53D7D48C8C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E18FB3-88D2-410A-90C9-4F4876ACB902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E18FB3-88D2-410A-90C9-4F4876ACB902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E18FB3-88D2-410A-90C9-4F4876ACB902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E18FB3-88D2-410A-90C9-4F4876ACB902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEC473C-52AD-4227-80C1-A6F96504BC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEC473C-52AD-4227-80C1-A6F96504BC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEC473C-52AD-4227-80C1-A6F96504BC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEC473C-52AD-4227-80C1-A6F96504BC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B9AD5E-9932-49CD-85C4-D77F5895A907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B9AD5E-9932-49CD-85C4-D77F5895A907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B9AD5E-9932-49CD-85C4-D77F5895A907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B9AD5E-9932-49CD-85C4-D77F5895A907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BEF9072-136C-4EEF-8BD2-24465390874F}
+	EndGlobalSection
+EndGlobal
