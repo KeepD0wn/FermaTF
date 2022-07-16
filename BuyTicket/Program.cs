@@ -1035,6 +1035,17 @@ namespace ConsoleApp1
 						mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)11, (uint)11, 0, 0);
 						mouse_event(MOUSEEVENTF_LEFTUP, (uint)11, (uint)11, 0, 0);
 
+						//закрываем ошибку если есть
+						Thread.Sleep(1000);
+						SetCursorPos(656, 381);
+						Thread.Sleep(1000);
+						mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)656, (uint)381, 0, 0);
+						mouse_event(MOUSEEVENTF_LEFTUP, (uint)656, (uint)381, 0, 0);
+
+						Thread.Sleep(1000);
+						mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)656, (uint)381, 0, 0);
+						mouse_event(MOUSEEVENTF_LEFTUP, (uint)656, (uint)381, 0, 0);
+
 						//клик shop
 						Thread.Sleep(1000);
 						SetCursorPos(478, 869);
