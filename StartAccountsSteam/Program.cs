@@ -101,6 +101,12 @@ namespace StartAccountsSteam
             return s;
         }
 
+        private static void CheckTime(ref bool k, System.Timers.Timer timer)
+        {
+            k = true;
+            timer.Enabled = false;
+        }
+
         private static void langToEn()
         {
             string lang = "00000409";
@@ -351,6 +357,52 @@ namespace StartAccountsSteam
                     }
                     Thread.Sleep(100);
                 }
+
+                //bool timeIsOver = false;
+                //System.Timers.Timer tmr2 = new System.Timers.Timer();
+                //tmr2.Interval = 1000 * 30; //для тф2 120 сек многовато мб
+                //tmr2.Elapsed += (o, e) => CheckTime(ref timeIsOver, tmr2);
+                //tmr2.Enabled = true;
+                //IntPtr csgoWindow = default;
+                //Process csgoProc;
+                //int csProcId;
+
+                //while (true)
+                //{
+                //    csgoWindow = FindWindow(null, "Team Fortress 2");                   
+
+                //    if (csgoWindow.ToString() != "0")
+                //    {
+                //        Thread.Sleep(500);
+                //        Console.WriteLine("[SYSTEM] TF2 detected");
+                //        csProcId = 0;
+                //        GetWindowThreadProcessId(csgoWindow, ref csProcId);
+                //        csgoProc = Process.GetProcessById(csProcId);
+                //        Console.WriteLine(new string('-', 20) + $"Current window: {currentCycle}/{lastCycle}");
+                //        Thread.Sleep(5000);
+
+                //        csgoProc.Kill();
+                //        steamProc.Kill();
+
+                //        break;
+                //    }
+
+                //    if (timeIsOver == true)
+                //    {
+                //        try
+                //        {
+                //            steamProc.Kill();
+                //        }
+                //        catch
+                //        {
+                //            Console.WriteLine("[203][SYSTEM] Error");
+                //        }
+                //        Console.WriteLine("[SYSTEM] No TF2 detected");
+                //        Thread.Sleep(1000);
+                //        throw new Exception("Abort");
+                //    }
+                //    Thread.Sleep(100);
+                //}
 
                 try
                 {                    

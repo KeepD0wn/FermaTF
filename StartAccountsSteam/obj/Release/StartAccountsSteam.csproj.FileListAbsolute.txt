@@ -57,4 +57,3 @@ C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccounts
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.CopyComplete
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.exe
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.pdb
-C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.AssemblyReference.cache

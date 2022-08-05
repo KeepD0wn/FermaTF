@@ -51,7 +51,6 @@ C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Debug\Ubiety.Dns.Core
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Debug\Zstandard.Net.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Debug\Newtonsoft.Json.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Debug\SteamAuth.pdb
-C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Debug\StartAccountsSteam.csproj.AssemblyReference.cache
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Debug\StartAccountsSteam.Properties.Resources.resources
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Debug\StartAccountsSteam.csproj.GenerateResource.cache
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Debug\StartAccountsSteam.csproj.CoreCompileInputs.cache
