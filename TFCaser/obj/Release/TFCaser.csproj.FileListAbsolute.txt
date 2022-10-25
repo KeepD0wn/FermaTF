@@ -11,7 +11,6 @@ C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\K4os.Hash.xxHash.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\SteamAuth.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Buffers.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.IO.Compression.FileSystem.dll
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Memory.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Ubiety.Dns.Core.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Zstandard.Net.dll
@@ -27,3 +26,5 @@ C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.CopyCompl
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.exe
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.pdb
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.AssemblyReference.cache
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.SuggestedBindingRedirects.cache
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Newtonsoft.Json.xml

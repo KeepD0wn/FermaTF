@@ -45,7 +45,6 @@ C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\K4os.Compress
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\K4os.Hash.xxHash.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\SteamAuth.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\System.Buffers.dll
-C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\System.Memory.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\Ubiety.Dns.Core.dll
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\Zstandard.Net.dll
@@ -57,3 +56,5 @@ C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccounts
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.CopyComplete
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.exe
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.pdb
+C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.AssemblyReference.cache
+C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.SuggestedBindingRedirects.cache

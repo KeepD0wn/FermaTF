@@ -44,7 +44,7 @@ namespace ConsoleApp1
 		private static string parsnew = "-silent -nofriendsui -nochatui -single_core -novid -noshader -nofbo -nodcaudio -nomsaa -16bpp -nosound -high";
 		
 		private static string V2 = "-window -32bit +mat_disable_bloom 1 +func_break_max_pieces 0 +r_drawparticles 0 -nosync -noipx -nojoy +exec autoexec.cfg -nocrashdialog -high -d3d9ex -noforcemparms -noaafonts" +
-			" -noforcemaccel -limitvsconst +r_dynamic 0 -noforcemspd +fps_max 20 -nopreload -nopreloadmodels +cl_forcepreload 0 " +
+			" -noforcemaccel -limitvsconst +r_dynamic 0 -noforcemspd +fps_max 3 -nopreload -nopreloadmodels +cl_forcepreload 0 " +
 			"-nosound -novid -w 160 -h 160 -nosteamcontroller "; //крайне важен пробел в конце		меньше чеи 640х480 нельзя, иначе кску крашит
 
 		private static string serverConnectionString = "";
@@ -626,7 +626,7 @@ namespace ConsoleApp1
 
 		private static void CloseSteamPlesh()
         {
-            if(FindWindow(null, "Steam Login").ToString() != "0")
+            if(FindWindow(null, "Steam Sign In").ToString() != "0")
             {
 				LogAndConsoleWritelineAsync("Плешивый стим найден");
 				Thread.Sleep(10000);				
@@ -735,13 +735,13 @@ namespace ConsoleApp1
 					}
 
                     //перед запуском проверяем что бы не было заблудившихся стим логинов, что бы они не руинили заходы
-                    while (FindWindow(null, "Steam Login").ToString() != "0" && !listSteamLogin.Contains(FindWindow(null, "Steam Login").ToString()))
+                    while (FindWindow(null, "Steam Sign In").ToString() != "0" && !listSteamLogin.Contains(FindWindow(null, "Steam Sign In").ToString()))
                     {
-                        IntPtr wrongSteamWindow = FindWindow(null, "Steam Login");
+                        IntPtr wrongSteamWindow = FindWindow(null, "Steam Sign In");
                         int WrongX = 0;
                         GetWindowThreadProcessId(wrongSteamWindow, ref WrongX);
                         Process WrongSteamLogingProc = Process.GetProcessById(WrongX);
-						LogAndConsoleWritelineAsync("[059] Wrong Steam Login Killed");
+						LogAndConsoleWritelineAsync("[059] Wrong Steam Sign In Killed");
                         WrongSteamLogingProc.Kill();
                         Thread.Sleep(1000);
                     }
@@ -756,7 +756,7 @@ namespace ConsoleApp1
 
 					processStartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 					processStartInfo.FileName = "cmd.exe";					
-                    processStartInfo.Arguments = string.Format("/C \"{0}\" -login {1} {2} -applaunch 440 -language {3}{4}-x {5} -y {6} {7} {8}", new object[]
+                    processStartInfo.Arguments = string.Format("/C \"{0}\" -login {1} {2} -applaunch 440 -no-browser -language {3} {4} -x {5} -y {6} {7} {8}", new object[]
                     {
                        @"C:\Program Files (x86)\Steam\steam.exe",
                       login,
@@ -804,10 +804,10 @@ namespace ConsoleApp1
 							break;
 						}
 
-						steamWindowLogin = FindWindow(null, "Steam Login");
+						steamWindowLogin = FindWindow(null, "Steam Sign In");
 						if (steamWindowLogin.ToString() != "0" && !listSteamLogin.Contains(steamWindowLogin.ToString()))
 						{
-							LogAndConsoleWritelineAsync("[SYSTEM] Steam detected");
+							LogAndConsoleWritelineAsync("[SYSTEM] Steam Sign In detected");
 
 							//listSteamLogin.Add(steamWindow.ToString());
 

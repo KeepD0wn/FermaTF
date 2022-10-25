@@ -277,20 +277,20 @@ namespace StartAccountsSteam
                     steamWindow = FindWindow(null, "Вход в Steam");
                     if (steamWindow.ToString() != "0")
                     {
-                        Console.WriteLine("[SYSTEM] Steam Login detected");
+                        Console.WriteLine("[SYSTEM] Steam Sign In detected");
                         Thread.Sleep(500);
                         GetWindowThreadProcessId(steamWindow, ref steamProcId);
                         steamProc = Process.GetProcessById(steamProcId);
                         break;
                     }
 
-                    steamWindow = FindWindow(null, "Steam Login");
+                    steamWindow = FindWindow(null, "Steam Sign In");
                     if (steamWindow.ToString() != "0")
                     {
-                        Console.WriteLine("[SYSTEM] Steam Login detected");
+                        Console.WriteLine("[SYSTEM] Steam Sign In detected");
                         Thread.Sleep(500);
                         GetWindowThreadProcessId(steamWindow, ref steamProcId);
-                        steamProc = Process.GetProcessById(steamProcId);
+                        steamProc = Process.GetProcessById(steamProcId);                       
                         break;
                     }
 
