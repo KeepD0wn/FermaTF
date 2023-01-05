@@ -39,15 +39,15 @@ namespace ConsoleApp1
 			WM_GETTEXT = 0x000D
 		}
 
-		private static string def = "silent -nofriendsui -nochatui -single_core -novid -noshader -nofbo -nodcaudio -nomsaa -16bpp -nosound -high";
-		
-		private static string parsnew = "-silent -nofriendsui -nochatui -single_core -novid -noshader -nofbo -nodcaudio -nomsaa -16bpp -nosound -high";
-		
-		private static string V2 = "-window -32bit +mat_disable_bloom 1 +func_break_max_pieces 0 +r_drawparticles 0 -nosync -noipx -nojoy +exec autoexec.cfg -nocrashdialog -high -d3d9ex -noforcemparms -noaafonts" +
-			" -noforcemaccel -limitvsconst +r_dynamic 0 -noforcemspd +fps_max 3 -nopreload -nopreloadmodels +cl_forcepreload 0 " +
-			"-nosound -novid -w 160 -h 160 -nosteamcontroller "; //крайне важен пробел в конце		меньше чеи 640х480 нельзя, иначе кску крашит
+        private static string def = "silent -nofriendsui -nochatui -novid -noshader -low -nomsaa -16bpp -nosound -high";
 
-		private static string serverConnectionString = "";
+        private static string parsnew = "-silent -nofriendsui -nosteamcontroller -offline -nochatui -single_core -novid -noshader -nofbo -nodcaudio -nomsaa -16bpp -nosound -high";
+
+        private static string V2 = "-window -32bit +mat_disable_bloom 1 +func_break_max_pieces 0 +r_drawparticles 0 -nosync -nosrgb -console -noipx -nojoy +exec autoexec.cfg -nocrashdialog -high -d3d9ex -noforcemparms -noaafonts" +
+            " -noforcemaccel -limitvsconst +r_dynamic 0 -noforcemspd +fps_max 3 -nopreload -nopreloadmodels +cl_forcepreload 0 " +
+            "-nosound -novid -w 160 -h 160 -nomouse"; //меньше чеи 640х480 нельзя, иначе кску крашит
+
+        private static string serverConnectionString = "";
 
 		public static string csgopath = "D:\\Games\\steamapps\\common\\Counter-Strike Global Offensive";
 
@@ -755,11 +755,11 @@ namespace ConsoleApp1
 					Thread myThread7 = default;
 
 					processStartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-					processStartInfo.FileName = "cmd.exe";					
-                    processStartInfo.Arguments = string.Format("/C \"{0}\" -login {1} {2} -applaunch 440 -no-browser -language {3} {4} -x {5} -y {6} {7} {8}", new object[]
+					processStartInfo.FileName = "cmd.exe";
+                    processStartInfo.Arguments = string.Format("/C \"{0}\" -noreactlogin -login {1} {2} -applaunch 440 -no-browser -language {3} {4} -x {5} -y {6} {7} {8}", new object[]
                     {
                        @"C:\Program Files (x86)\Steam\steam.exe",
-                      login,
+                       login,
                        password,
                        accid,
                        Program.V2,
