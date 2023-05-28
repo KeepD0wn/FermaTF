@@ -46,6 +46,8 @@ namespace StartAccountsSteam
 
         const int VK_ENTER = 0x0D;
 
+        const int VK_BACK = 0x08;
+
         const int WM_KEYDOWN = 0x100;
 
         const int wmChar = 0x0102;
@@ -258,7 +260,7 @@ namespace StartAccountsSteam
 
                 processStartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 processStartInfo.FileName = "cmd.exe";
-                processStartInfo.Arguments = string.Format("/C \"{0}\" -login {1} {2} ", new object[]
+                processStartInfo.Arguments = string.Format("/C \"{0}\" -noverifyfiles -noreactlogin -login {1} {2} ", new object[]
                 {
                        @"C:\Program Files (x86)\Steam\steam.exe",
                        login,
@@ -271,10 +273,11 @@ namespace StartAccountsSteam
 
                 process.StartInfo = processStartInfo;
                 process.Start();
+                var codeGuardTask = GetGuardCodeAsync(secretKey);
 
                 while (true)
                 {
-                    steamWindow = FindWindow(null, "Вход в Steam");
+                    steamWindow = FindWindow(null, "Steam Sign In");
                     if (steamWindow.ToString() != "0")
                     {
                         Console.WriteLine("[SYSTEM] Steam Sign In detected");
@@ -284,60 +287,39 @@ namespace StartAccountsSteam
                         break;
                     }
 
-                    steamWindow = FindWindow(null, "Steam Sign In");
-                    if (steamWindow.ToString() != "0")
-                    {
-                        Console.WriteLine("[SYSTEM] Steam Sign In detected");
-                        Thread.Sleep(500);
-                        GetWindowThreadProcessId(steamWindow, ref steamProcId);
-                        steamProc = Process.GetProcessById(steamProcId);                       
-                        break;
-                    }
-
                     Thread.Sleep(100);
                 }
 
-                bool guardDetected1 = false;
-                var codeGuardTask = GetGuardCodeAsync(secretKey);
-                DateTime now1 = DateTime.Now;
-                while (now1.AddSeconds(15) > DateTime.Now)
-                {
-                    steamGuardWindow = FindWindow(null, "Steam Guard - Computer Authorization Required");
-                    if (steamGuardWindow.ToString() != "0")
-                    {
-                        Console.WriteLine("[SYSTEM] Steam Guard detected");
-                        guardDetected1 = true;
-                        break;
-                    }
-
-                    steamGuardWindow = FindWindow(null, "Steam Guard — Необходима авторизация компьютера");
-                    if (steamGuardWindow.ToString() != "0")
-                    {
-                        Console.WriteLine("[SYSTEM] Steam Guard detected");
-                        guardDetected1 = true;
-                        break;
-                    }
-
-                    Thread.Sleep(100);
-                }
-
+                Thread.Sleep(5000);
                 IntPtr console = FindWindow(null, "ConsoleCsgo");
                 codeGuardTask.Wait();
                 Console.WriteLine($"Guard code: {codeGuardTask.Result}");
-                if (guardDetected1 == true && steamGuardWindow.ToString() != "0")
+
+                Thread.Sleep(1000);
+                lock (threadLockType)
                 {
-                    Thread.Sleep(1000);
+                    TypeText(console, steamWindow, codeGuardTask.Result);
+                }
+                Thread.Sleep(3000); //с 1 секунды до 3 сек что бы на высоких кол-вах не захлёбывался
+                if (FindWindow(null, $"steam_{login}").ToString() != "0")
+                {
+                    Console.WriteLine("Try enter guard code #2");
                     lock (threadLockType)
                     {
-                        TypeText(console, steamGuardWindow, codeGuardTask.Result);
+                        SetForegroundWindow(steamWindow);
+                        Thread.Sleep(1000);
+                        PostMessage(steamWindow, WM_KEYDOWN, VK_BACK, 1);
+                        Thread.Sleep(200);
+                        PostMessage(steamWindow, WM_KEYDOWN, VK_BACK, 1);
+                        Thread.Sleep(200);
+                        PostMessage(steamWindow, WM_KEYDOWN, VK_BACK, 1);
+                        Thread.Sleep(200);
+                        PostMessage(steamWindow, WM_KEYDOWN, VK_BACK, 1);
+                        Thread.Sleep(200);
+                        PostMessage(steamWindow, WM_KEYDOWN, VK_BACK, 1);
+                        Thread.Sleep(200);
+                        TypeText(console, steamWindow, codeGuardTask.Result);
                     }
-                }
-                else
-                {
-                    steamProc.Kill(); //процесс подвисает на время загрузки гварда, никак не убить
-                    Console.WriteLine("[SYSTEM] No steam Guard detected №2");
-                    Thread.Sleep(1000);
-                    throw new Exception("Abort");
                 }
 
                 CheckGuardClosed(steamGuardWindow, steamProc, console, codeGuardTask.Result); // мб разделить проверку на стим гвард клозед и на стим варнинг, варнинг сделать таском и на секунд 15

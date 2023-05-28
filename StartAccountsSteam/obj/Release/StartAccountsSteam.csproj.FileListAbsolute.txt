@@ -58,3 +58,4 @@ C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccounts
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.pdb
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.AssemblyReference.cache
 C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\obj\Release\StartAccountsSteam.csproj.SuggestedBindingRedirects.cache
+C:\Users\gvozd\source\repos\FermaTF\StartAccountsSteam\bin\Release\Newtonsoft.Json.xml

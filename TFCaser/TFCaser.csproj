@@ -60,7 +60,7 @@
     <AssemblyOriginatorKeyFile>IdleMachineKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>73DCD6B9966B146B473634E2685DE08A7C2A3684</ManifestCertificateThumbprint>
