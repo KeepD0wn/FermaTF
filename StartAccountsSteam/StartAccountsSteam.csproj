@@ -7,7 +7,7 @@
     <ProjectGuid>{B2B9AD5E-9932-49CD-85C4-D77F5895A907}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>StartAccountsSteam</RootNamespace>
-    <AssemblyName>StartAccountsSteam</AssemblyName>
+    <AssemblyName>Create Folders</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,13 +50,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>2.ico</ApplicationIcon>
+    <ApplicationIcon>folder.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>IdleMachineKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>IdleKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6BD2725D1DED6A77F4E910DE29A90387E9AB39AB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
@@ -243,7 +249,6 @@
   <ItemGroup>
     <Compile Include="DBMySQLUtils.cs" />
     <Compile Include="DBUtils.cs" />
-    <Compile Include="PcInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -254,7 +259,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="IdleMachineKey.pfx" />
+    <None Include="IdleKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -262,9 +267,10 @@
       <Project>{5ad0934e-f6c4-4ae5-83af-c788313b2a87}</Project>
       <Name>SteamAuth</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="2.ico" />
+    <ProjectReference Include="..\GeneralDLL\GeneralDLL.csproj">
+      <Project>{fd9b3f29-ada9-46d1-a167-ea3a298a02eb}</Project>
+      <Name>GeneralDLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -283,6 +289,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="folder.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

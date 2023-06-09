@@ -10,13 +10,13 @@ namespace ConsoleApp1
         static public List<string> GetLastLines(int amount)
         {
             //check if file exists, if not return null so an error can be displayed
-            if (File.Exists($@"{Program.csgopath}\csgo\console.log"))
+            if (File.Exists($@"{Program.tfPath}\csgo\console.log"))
             {
                 int count = 0;
                 byte[] buffer = new byte[1];
                 List<string> consoleLines = new List<string>();
 
-                using (FileStream fs = new FileStream($@"{Program.csgopath}\csgo\console.log", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                using (FileStream fs = new FileStream($@"{Program.tfPath}\csgo\console.log", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 {
                     fs.Seek(0, SeekOrigin.End);
 

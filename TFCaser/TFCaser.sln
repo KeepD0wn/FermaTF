@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFCaser", "TFCaser.csproj", "{2BA1701C-F775-4188-AE0D-53D7D48C8C39}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamAuth", "..\SteamAuth-master\SteamAuth\SteamAuth.csproj", "{5AD0934E-F6C4-4AE5-83AF-C788313B2A87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyTicket", "..\BuyTicket\BuyTicket.csproj", "{0AD14360-1ABB-4283-A562-989BE10D9D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralDLL", "..\GeneralDLL\GeneralDLL.csproj", "{FD9B3F29-ADA9-46D1-A167-EA3A298A02EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloseAllSteamProcess", "..\CloseAllSteamProcess\CloseAllSteamProcess.csproj", "{7EEB5556-31FB-4A8B-A883-5B93DD8ADB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFolders", "..\ReplaceFolders\ReplaceFolders.csproj", "{25B23B5F-8DC0-4BA5-B3C3-CB38EBCCA0D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD14360-1ABB-4283-A562-989BE10D9D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9B3F29-ADA9-46D1-A167-EA3A298A02EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9B3F29-ADA9-46D1-A167-EA3A298A02EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9B3F29-ADA9-46D1-A167-EA3A298A02EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9B3F29-ADA9-46D1-A167-EA3A298A02EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEB5556-31FB-4A8B-A883-5B93DD8ADB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEB5556-31FB-4A8B-A883-5B93DD8ADB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEB5556-31FB-4A8B-A883-5B93DD8ADB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEB5556-31FB-4A8B-A883-5B93DD8ADB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B23B5F-8DC0-4BA5-B3C3-CB38EBCCA0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B23B5F-8DC0-4BA5-B3C3-CB38EBCCA0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B23B5F-8DC0-4BA5-B3C3-CB38EBCCA0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B23B5F-8DC0-4BA5-B3C3-CB38EBCCA0D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

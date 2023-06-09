@@ -19,7 +19,7 @@ namespace ConsoleApp1.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -61,7 +61,7 @@ namespace ConsoleApp1.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Server=84.23.52.177;port=3306;User Id=user;password=LoRe2KNQg6MLwbAY.
+        ///   Ищет локализованную строку, похожую на Server=146.185.241.5;port=3306;User Id=user;password=v6a4C5L2m7q070Ft.
         /// </summary>
         internal static string String1 {
             get {

@@ -1,0 +1,42 @@
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\GeneralDLL.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\SteamAuth.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\MySql.Data.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Google.Protobuf.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Memory.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.IO.Pipelines.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Buffers.dll
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\GeneralDLL.pdb
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\GeneralDLL.dll.config
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\SteamAuth.pdb
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\MySql.Data.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Google.Protobuf.pdb
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Google.Protobuf.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Memory.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.IO.Pipelines.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\System.Buffers.xml
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\CloseAllSteamProcess.csproj.AssemblyReference.cache
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\CloseAllSteamProcess.csproj.SuggestedBindingRedirects.cache
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\CloseAllSteamProcess.csproj.CoreCompileInputs.cache
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\CloseAllSteamProcess.csproj.CopyComplete
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Close All Steam Process.exe.config
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Close All Steam Process.exe
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\bin\Debug\Close All Steam Process.pdb
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\Close All Steam Process.exe.config
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\Close All Steam Process.exe
+C:\Users\gvozd\source\repos\FermaTF\CloseAllSteamProcess\obj\Debug\Close All Steam Process.pdb

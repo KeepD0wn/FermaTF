@@ -1,8 +1,3 @@
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\ConsoleApp1.exe.config
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\ConsoleApp1.exe.manifest
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\ConsoleApp1.application
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\ConsoleApp1.exe
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\ConsoleApp1.pdb
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\BouncyCastle.Crypto.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Google.Protobuf.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\K4os.Compression.LZ4.dll
@@ -12,19 +7,42 @@ C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\SteamAuth.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Buffers.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.IO.Compression.FileSystem.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Ubiety.Dns.Core.dll
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Zstandard.Net.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Newtonsoft.Json.dll
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\SteamAuth.pdb
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.Properties.Resources.resources
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.GenerateResource.cache
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.CoreCompileInputs.cache
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.TrustInfo.xml
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.exe.manifest
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.application
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.CopyComplete
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.exe
-C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\ConsoleApp1.pdb
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.AssemblyReference.cache
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TFCaser.csproj.SuggestedBindingRedirects.cache
 C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Newtonsoft.Json.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\TF IDLE MACHINE.exe.config
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\TF IDLE MACHINE.exe.manifest
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\TF IDLE MACHINE.application
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\TF IDLE MACHINE.exe
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\TF IDLE MACHINE.pdb
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\GeneralDLL.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\GeneralDLL.pdb
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TF IDLE MACHINE.TrustInfo.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TF IDLE MACHINE.exe.manifest
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TF IDLE MACHINE.application
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TF IDLE MACHINE.exe
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\obj\Release\TF IDLE MACHINE.pdb
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.IO.Pipelines.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\GeneralDLL.dll.config
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.IO.Pipelines.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\MySql.Data.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Memory.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Numerics.Vectors.dll
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Google.Protobuf.pdb
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\Google.Protobuf.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\K4os.Compression.LZ4.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\K4os.Compression.LZ4.Streams.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\K4os.Hash.xxHash.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\MySql.Data.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Memory.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Numerics.Vectors.xml
+C:\Users\gvozd\source\repos\FermaTF\TFCaser\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
